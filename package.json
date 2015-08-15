@@ -1,6 +1,6 @@
 {
   "name": "clake",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Play Snake from the comfort of your CLI!",
   "main": "index.js",
   "preferGlobal": true,
