@@ -1,0 +1,27 @@
+{
+  "name": "clake",
+  "version": "1.0.0",
+  "description": "Play Snake from the comfort of your CLI!",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "snake",
+    "cli",
+    "command",
+    "line",
+    "game"
+  ],
+  "author":  {
+    "name": "Gabriel Grinberg",
+    "email": "gabi.grinberg@gmail.com"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "charm": "^1.0.0",
+    "keypress": "^0.2.1",
+    "lerp": "^1.0.3",
+    "minimist": "^1.1.3"
+  }
+}
