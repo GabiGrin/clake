@@ -1,5 +1,3 @@
-var createCharm = require('charm')
-
 var Apple = require('./apple')
 var Snake = require('./snake')
 var Clanvas = require('./clanvas')
@@ -33,7 +31,7 @@ Game.prototype.renderHud = function () {
   this.clanvas.fillLine(-1, 'white') // lazy hack, the whole area is shifted down to hold the hud
   charm.foreground('black')
   charm.position(middle - 3, 0).write('CLake')
-  charm.foreground(14).position(end - 12, 0).write('Points: ' + this.points)
+  charm.foreground(4).position(end - 12, 0).write('Score: ' + this.points)
 }
 
 Game.prototype.onKey = function (key) {
